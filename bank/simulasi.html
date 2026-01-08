@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulasi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">♻ Bank Sampah Digital</div>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="simulasi.html">Simulasi</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Simulasi Tabungan Sampah</h2>
+
+    <div class="simulasi-box">
+        <input type="number" id="kg" placeholder="Berat Sampah (Kg)">
+        <select id="jenis">
+            <option value="2000">Plastik</option>
+            <option value="3000">Kertas</option>
+            <option value="4000">Logam</option>
+        </select>
+        <button onclick="hitung()">Hitung</button>
+        <h3 id="hasil"></h3>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Bank Sampah Digital</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
